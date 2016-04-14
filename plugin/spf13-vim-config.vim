@@ -1,4 +1,4 @@
-" Gvim or Terminal
+" 1. Gvim or Terminal
 " solve problem 1
 
 let s:iswindows = 0
@@ -20,7 +20,7 @@ if s:iswindows
 endif
 
 
-"设置文件的代码形式
+"2 .设置文件的代码形式
 set encoding=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
@@ -33,3 +33,7 @@ set fileencodings=ucs-bom,utf-8,chinese,cp936
 
 "vim提示信息乱码的解决
 language messages zh_CN.utf-8
+
+
+" 3.Nerdtree
+autocmd BufEnter * lcd %:p:h 
