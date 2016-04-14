@@ -7,3 +7,4 @@ Solve
 ---
 
 1. [x] 'tmp file error'
+2. [x] 'Chinese encode error'
